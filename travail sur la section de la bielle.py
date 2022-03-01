@@ -27,7 +27,7 @@ def V_cyl(L,R,theta,D):
         H[index]=h
         V_output=H*pi*(D/2)**2
     return V_output
-
+la tu vois direct
 def apport_chaleur(): # calculer l'apport de chaleur sur la durée de temps de combustion voir son schéma 
     return Q_output # en [J]
 
