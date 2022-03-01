@@ -43,4 +43,4 @@ def epaisseur_critique(): #? voir schema de l enonce
 
 def myfunc(rpm, s, theta, thetaC, deltaThetaC):
     #VOTRE CODE
-    return (V_output, Q_output, F_pied_output, F_tete_output, p_output, t)  
+    return (V_output, Q_output, F_pied_output, F_tete_output, p_output, t)  #v
