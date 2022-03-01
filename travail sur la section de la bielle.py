@@ -28,8 +28,17 @@ def V_cyl(L,R,theta,D):
         V_output=H*pi*(D/2)**2
     return V_output
 
+def derivee_Vcyl():
+    return dV_dTheta
+
 def apport_chaleur(): # calculer l'apport de chaleur sur la durée de temps de combustion voir son schéma 
     return Q_output # en [J]
+
+def derivee_chaleur():
+    return dQ_dTheta
+
+def derivee_pression(#pression,volume,derivee_volume etc):
+    return dp_dTheta
 
 def force_bielle():
     return F_pied_output et F_tete_output # en [N]
